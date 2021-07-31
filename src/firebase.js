@@ -2,6 +2,7 @@ import firebase from "firebase/app"
 import "firebase/firestore"
 import "firebase/auth"
 import "firebase/storage"
+import { firebaseConfig } from "./firebaseconfig" 
 
   const firebaseApp= firebase.initializeApp(firebaseConfig);
 
